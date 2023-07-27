@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    font-size: 50px;
+    color: black;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    background: gray;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+}
